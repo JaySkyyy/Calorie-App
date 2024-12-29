@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "531282177188",
+    "firebase_url": "https://caloriebase-b1b8b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "caloriebase-b1b8b",
+    "storage_bucket": "caloriebase-b1b8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531282177188:android:c3d61cabf402383e9a8a31",
+        "android_client_info": {
+          "package_name": "appcr.ushakov.caloriecalculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThgpU8kgUGpwefYdsMTQUrrufuKPY3Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

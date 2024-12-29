@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/uncolor4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/textViewStart"
+                android:textSize="20sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center"
+                android:textColor="@color/black97"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewStart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/textViewStart2"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center"
+                android:textColor="@color/black97"/>
+
+            <TextView
+                android:id="@+id/textViewStart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/textViewStart3"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center"
+                android:textColor="@color/black97"
+                />
+
+            <TextView
+                android:id="@+id/textViewStart4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/textViewStart4"
+                android:textSize="20sp"
+                android:textColor="@color/black97"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/buttonCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/style_button_main"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Рассчитать!"
+                android:textAllCaps="false"
+                android:textColor="@color/green"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonCallorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_main"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Каллорийсность продуктов"
+                android:textAllCaps="false"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_button_main"
+                android:enabled="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Добавить"
+                android:textAllCaps="false"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
